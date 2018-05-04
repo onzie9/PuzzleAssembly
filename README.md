@@ -13,3 +13,5 @@ There are several images associated with this project.  In no particular order, 
 1. The animated gifs represent three actual implementations of the algorithm.  There is no effort to make the frame rates of the gifs meaningful.
 2. The histogram is of 4000 implementations of the algorithm.  The datum depicted is the total number of piece-handlings during the assembly.  That is, on average, one would have to reach into the box around 20,000 times to take a piece out.  Most of the time, the piece that is removed will fail to fit into the current status of the puzzle, so it is placed in the box top and tried again later.
 3. The dot plot is the average number of pieces that had to be chosen before a piece that fits is found at each step.  The plot is taken over 40 implementations of the algorithm.
+
+The algorithm was implemented in Python.  The histogram was generated using numpy from within Python, and the gifs and plot were generated using Mathematica using the output of the Python script.
